@@ -1,0 +1,28 @@
+{
+  "name": "mongoscrape",
+  "version": "1.0.0",
+  "description": "Homework for scraping the web for articles and displaying with Mongoose",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tallen904/MongoScrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tallen904/MongoScrape/issues"
+  },
+  "homepage": "https://github.com/tallen904/MongoScrape#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.10",
+    "request": "^2.85.0"
+  }
+}

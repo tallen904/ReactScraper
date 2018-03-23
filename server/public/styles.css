@@ -1,0 +1,68 @@
+.article {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  height: 100px
+}
+
+#modal-close {
+    position: absolute;
+    right: 0;
+    color: red;
+    font-weight: bolder;
+}
+
+.modal {
+    max-height: 75% !important;
+}
+
+.article-title {
+    text-align: left;
+    flex: 3;
+    margin: auto
+}
+
+.article-btn {
+    display: flex;
+    margin: auto
+}
+
+body {
+  background-color: teal;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+
+/* #articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+} */
+
+#notes {
+  float: right;
+  width: 30%;
+}
+
+textarea,
+input {
+  display: block;
+  width: 100%;
+  background-color: #fcf5c7;
+}
+
+input {
+  height: 36px;
+  font-size: 24px;
+}
+
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
